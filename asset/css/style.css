@@ -1,0 +1,1061 @@
+.container {
+	height: 700px;
+	background-color: #E5E5E5;
+	margin-right: auto;
+	margin-left: auto;
+}
+.formulaire_connexion {
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.formulaire_connexion form{
+	width: 100%;
+}
+#entete_login{
+	font-size: 40px;
+	text-align: center;
+	font-family: Impact;
+	width: auto;
+	height: 80px;
+	background-color: #000000;
+	color: #04A4FE;
+}
+#entete_login p{
+	padding-top:10px ;
+}
+.plaisir{
+	color:#D96A52;
+}
+#de{
+	color:#F4D998;
+}
+#logo_login{
+	width:95px;
+	height:150px;
+	margin-left: 45%;
+}
+.seConnecter{
+	text-align: center;
+	color: #04A4FE;
+	font-family: Impact;
+}
+.inputLogin{
+	width: 50%;
+	height: 55px;
+	margin-top: 20px;
+	border: 1px solid #04A4FE;
+	border-radius: 10px;
+	margin-left: 25%;
+	text-indent: 10px;
+}
+#tooltipLogin{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 5px;
+	font-family: Impact;
+	
+	border-radius: 4px;
+    font-size: 15px;
+	color: #D96A52;
+	text-align: center;
+}
+.inputPassword{
+	width: 50%;
+	height: 55px;
+	margin-top: 20px;
+	border: 1px solid #04A4FE;
+	border-radius: 10px;
+	margin-left: 25%;
+	text-indent: 10px;
+}
+#tooltipPassword{
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 5px;
+	font-family: Impact;
+	border-radius: 4px;
+    font-size: 15px;
+	color: #D96A52;
+	text-align: center;
+}
+#btnConnexion{
+	width: 35%;
+	height: 55px;
+	margin-top: 30px;
+	color: white;
+	background-color: #04A4FE;
+	font-size: 25px;
+	font-family: Impact;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	border: none;
+	margin-left: 33%;
+}
+#inscrire{
+	height: 35px;
+	font-size: 25px;
+	font-family: Impact;
+	margin-top: 30px;
+	text-align: center;
+}
+
+/*CSS Page inscriptionJoueur*/
+
+.tester{
+	color:#D96A52;
+	font-size: 18px;
+	margin-top:-10px;
+	font-family: Times New Roman;
+}
+.sincrire{
+	font-family: Times New Roman;
+	color: #04A4FE;
+	font-size: 24px;
+	margin-top: 10px;
+}
+.formulaire_inscription{
+	position: relative;
+	width: 60%;
+	height: 450px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: 20%;
+	border: 2px solid #04A4FE;
+	border-radius: 20px 20px 0px 0px;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px #04A4FE;
+	margin-top: 20px;
+}
+.inputIns{
+	width: 100%;
+	height: 35px;
+	margin-top: 10px;
+	border: 1px solid #04A4FE;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+#avatarIns{
+	display: none;
+}
+#labelAvatarIns{
+	float: right;
+	font-size: 10px;
+	font-weight: bold;
+	border-width:1px;
+	border-style:dotted;
+	border-color:black;
+	background-color: rgb(81,191,208);
+	color: white;
+	padding: 2px;
+	margin-top: 5px;
+	margin-right: 0%;
+}
+#labelAvatar{
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+}
+#btnIns{
+	background-color: rgb(81,191,208);
+	color: white;
+	font-size: 15px;
+	width: 36%;
+	height: 25px;
+	margin-left: 30%;
+	border: none;
+}
+#formIns{
+	float: left;
+	width: 50%;
+	font-family: serif;
+}
+@media (max-width: 800px) {
+	.container{
+		height: 800px;
+	}
+	.tester{
+	color:#D96A52;
+	font-size: 18px;
+	margin-top:-10px;
+	font-family: Times New Roman;
+	}
+	.sincrire{
+		font-family: Times New Roman;
+		color: #04A4FE;
+		font-size: 24px;
+		margin-top: 10px;
+	}
+	.formulaire_inscription{
+		position: relative;
+		width: 96%;
+		height: 450px;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-left: 2%;
+		border: 2px solid #04A4FE;
+		border-radius: 20px 20px 0px 0px;
+		box-sizing: border-box;
+		box-shadow: 0px 4px 4px #04A4FE;
+		margin-top: 20px;
+	}
+	.inputIns{
+		width: 100%;
+		height: 35px;
+		margin-top: 10px;
+		border: 1px solid #04A4FE;
+		border-radius: 5px;
+		text-indent: 10px;
+	}
+	#avatarIns{
+		display: none;
+	}
+	#labelAvatarIns{
+		float: right;
+		font-size: 10px;
+		font-weight: bold;
+		border-width:1px;
+		border-style:dotted;
+		border-color:black;
+		background-color: rgb(81,191,208);
+		color: white;
+		padding: 2px;
+		margin-top: 5px;
+		margin-right: 0%;
+	}
+	#labelAvatar{
+		font-size: 13px;
+		font-weight: bold;
+		color: black;
+	}
+	#btnIns{
+		background-color: rgb(81,191,208);
+		color: white;
+		font-size: 15px;
+		width: 60%;
+		height: 25px;
+		margin-left: 20%;
+		border: none;
+	}
+	#divAvatarIns{
+		display: inline;
+		width: 50%;
+		height: 340px;
+	}
+	#ApercuAvatarIns{
+		width: 25%;
+		height: 150px;
+		margin-left: 13%;
+		border-radius :50%;
+		border:3px solid rgb(81,191,208);
+	}
+	#figcaptionAvatarIns{
+		display: none;
+		width: 100px;
+		color: black;
+		text-align: center;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	#logo_inscription{
+		display: none;
+		width:50px;
+		height:100px;
+		margin-left: 22%;
+		margin-top: 50px;
+	}
+}
+#divAvatarIns{
+	display: inline;
+	width: 50%;
+	height: auto;
+}
+#ApercuAvatarIns{
+	width: 30%;
+	height: 40%;
+	margin-left: 13%;
+    border-radius :50%;
+    border:3px solid #04A4FE;
+}
+#figcaptionAvatarIns{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 20%;
+}
+#logo_inscription{
+	width:50px;
+	height:100px;
+	margin-left: 25%;
+	margin-top: 50px;
+}
+
+/*CSS Page admin*/
+
+#logo_quizz{
+	width: 40px;
+	height: 60px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#btnDeconnexion{
+    height: 40px;
+    width: 140px;
+	background-color: #04A4FE;
+	border: none;
+	float: right;
+	display: inline-block;
+    color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+
+}
+#btnDeconnexion a{
+	text-decoration: none;
+	color: white;
+}
+#message{
+	display: inline-block;
+}
+.cadre{
+	width: 96%;
+	height: 500px;
+	margin-top: 30px;
+	margin-left: 2%;
+}
+#menu{
+	float: left;
+	display: inline-block;
+	width: 35%;
+	height: 65%;
+	border-radius: 5px;
+}
+#profil{
+	display: block;
+	width: 100%;
+	height: 200px;
+	background-color: #04A4FE;
+	border-top-left-radius:5px ;
+	border-top-right-radius: 5px;	
+}
+#avatarAdmin{
+	display: inline-block;
+	float: left;
+    width: 70%;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: 15%;
+    border-radius :50%;
+    border:2px solid white;
+}
+#divPP{
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 55%;
+}
+#filiationAdmin{
+	display: inline-block;
+	width: 35%;
+	height: 100%;
+	margin-top: 50px;
+    color: #B15742;
+    text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Impact;
+}
+#vertical-menu{
+	width: 100%;	
+	height: 240px;
+	background-color: white;
+	border-bottom-left-radius: 5px ;
+	border-bottom-right-radius: 5px;
+}
+#vertical-menu a {
+	color: #B15742;
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	font-family: impact;
+	height: 40px;
+	font-size: 24px;
+}
+#vertical-menu a:hover {
+	background-color: #E5E5E5;
+	box-shadow: 0px 4px 4px #04A4FE;
+}  
+.active {
+	background-color: #E5E5E5;
+	box-shadow: 0px 4px 4px #04A4FE;
+}
+.iconeMenu{
+	float: right;
+	margin-right: 10px;
+}
+#formNbreQuestionsParjeu{
+	color: #04A4FE;
+	font-family: Impact;
+	margin-top: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 4px #04A4FE;
+}
+#nbreQuestionsParJeu{
+	width:40px;
+	height:30px;
+	border: 1px solid #04A4FE;
+	text-indent:10px;
+	font-weight:bold;
+	font-size:20px;
+	color:#B15742;
+	border-radius: 5px;
+}
+#formNbreQuestionsParjeu label{
+	color: #04A4FE;
+	font-size:25px;
+	margin-left: 10px;
+}
+#btnNbreQuestions{
+	width:35px;
+	height:30px;
+	background-color:rgb(81, 143, 221);
+	color:white;
+	border: 1px solid white;
+	margin-left:10px;
+	border-radius: 5px;
+}
+#menu_hamburger{
+	display: none;
+}
+@media (max-width: 800px) {
+	#menu{
+		display: none;
+	}
+	#btnDeconnexion{
+		display: none;
+	}
+	#menu_hamburger{
+		display:block;
+	}
+}
+#logo_quizz_hamburger{
+	width: 30px;
+	height: 50px;
+	margin-left: 10px;
+}
+#avatarAdminHamburger{
+	display: inline-block;
+	margin-top: 2px;
+	margin-left: 10px;
+    width: 46px;
+	height: 46px;
+    border-radius :50%;
+    border:2px solid white;
+}
+#btnDeconnexionHamburger{
+	height: 30px;
+    width: 120px;
+	background-color: #04A4FE;
+	border: none;
+	display: inline-block;
+	color: white;
+	margin-left: 25%;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+}
+footer{
+	width: 60%;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 20%;
+	font-size: 35px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #04A4FE;
+	text-align: center;
+	float: left;
+}
+
+/*CSS Page listeJoueurs*/
+
+#zoneListeJoueurs{
+	display: inline-block;
+	width: 55%;
+	height: 500px;
+    color:rgb(199, 147, 118);
+	background-color: white;
+	margin-left: 5%;
+	border-radius: 5px;
+}
+tr{
+	font-size:18px;
+}
+.thListeJoueurs{
+	font-weight: bold;
+}
+td{
+	width:33%;
+	padding-left:30px;
+}
+#tableListeJoueurs{
+	width:100%;
+}
+#listeJoueursParScore{
+	width: 60%;
+	height: 78%;
+	border:2px solid #B15742;
+	margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#btnSuivantJoueurs{
+	height: 30px;
+	width: 70px;
+	background-color: #04A4FE;
+	float: right;
+	display: inline-block;
+	margin-right: 20%;
+	margin-top: 5px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+#btnSuivantJoueurs a{
+	text-decoration: none;
+	color: white;
+}
+#titreListeJoueurs{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Times New Roman';
+	text-align: center;
+	padding-top: 20px;
+	color: #04A4FE;
+}
+@media (max-width: 800px) {
+	#zoneListeJoueurs{
+		width: 96%;
+		margin-left: 2%;
+	}
+	#listeJoueursParScore{
+		width: 80%;
+		height: 78%;
+		border:2px solid #B15742;
+		margin: auto;
+		margin-top: 10px;
+		border-radius: 10px;
+	}
+}
+
+/* CSS de la page creerQuestion.php*/
+
+#zoneAjoutQuestion{
+	display: inline-block;
+	width: 55%;
+	height: 500px;
+	background-color: white;
+	margin-left: 5%;
+	border-radius: 5px;
+}
+#zoneAjoutQuestion h2{
+	text-align: center;
+	margin-top: 10px;
+	color: rgb(81,191,208);
+	font-family: serif;
+	font-weight:bold;
+	margin-left:30px;
+}
+#formAjoutQuestion{
+	height:85%;
+	width:80%;
+	border:2px solid #B15742;
+	border-radius:10px;
+	margin-left:10%;
+	font-family: serif;
+	font-size:20px;
+	color:rgb(131,131,131);
+	overflow-x: auto;
+	overflow-y: auto
+}
+#formAjoutQuestion label{
+	font-weight:bold;
+}
+#formAjoutQuestion input, #formAjoutQuestion select{
+	border-radius:2px;
+	border:1px solid #04A4FE;
+}
+#questionAjoute{
+	height:70px;
+	width:60%;
+	margin-left:14.8%;
+	background-color: rgb(240,238,241);
+}
+#divQuestion{
+	margin-top: 10px;
+}
+#nbrePointsQAjoute{
+	height:30px;
+	width:10%;
+	margin-left:4%;
+	background-color: rgb(240,238,241);
+}
+#typeReponse{
+	display:inline-block;
+	height:35px;
+	width:50%;
+	margin-left:1.4%;
+	background-color: rgb(240,238,241);
+}
+#imgAjout{
+	float:right;
+	margin-right:5%;
+}
+#btnEnregistrerQuestion{
+	float:right;
+	margin-right:5%;
+	height:40px;
+	width:25%;
+	background-color:rgb(81,191,208);
+	color:white;
+	margin-top:10px;
+}
+label{
+	margin-left:10px;
+}
+#divNbrePoints, #divSelect{
+	margin-top: 10px;
+}
+.inputReponse{
+	margin-left: 13.5%;
+	margin-top:5px;
+	height:30px;
+	width:50%;
+	background-color: rgb(240,238,241);
+}
+#tooltipAjoutQuestion {
+	display: inline-block;
+	margin-left: 35%;
+	border: 1px solid #555;
+	background-color: rgb(81,191,208);
+	border-radius: 4px;
+	font-size: 10px;
+	color: #B15742;
+}
+#tooltipNbrePointsQAjoute {
+	display: inline-block;
+	margin-left: 5%;
+	border: 1px solid #555;
+	background-color: rgb(81,191,208);
+	border-radius: 4px;
+	font-size: 10px;
+	color: #B15742;
+}
+#tooltipReponsesGenerees, #tooltipReponsesCoche {
+	display: inline-block;
+	height:auto;
+	margin-left: 35%;
+	border: 1px solid #555;
+	background-color: rgb(81,191,208);
+	border-radius: 4px;
+	font-size: 10px;
+	color: #B15742;
+}
+.tooltipReponses {
+	height:auto;
+	width:30%;
+	margin-left: 35%;
+	margin-top: 5px;
+	border: 1px solid #555;
+	background-color: rgb(81,191,208);
+	border-radius: 4px;
+	font-size: 10px;
+	color: #B15742;
+}
+#divReponses{
+	margin-top:5px;
+}
+@media (max-width: 800px) {
+	#zoneAjoutQuestion{
+		width: 96%;
+		margin-left: 2%;
+	}
+	#formAjoutQuestion{
+		width: 96%;
+		height: 78%;
+		border:2px solid #B15742;
+		margin-left: 2%;
+		margin-top: 10px;
+		border-radius: 10px;
+	}
+}
+
+/* CSS de la page creerAdmin.php*/
+
+#zoneInscription{
+	display: inline-block;
+	width: 55%;
+	height: 500px;
+	background-color: white;
+	margin-left: 5%;
+	border-radius: 5px;
+}
+.formulaire_admin{
+	position: relative;
+	width: 96%;
+	height: 450px;
+	padding-right: 15px;
+	padding-left: 2%;
+	margin-left: 2%;
+	border: 2px solid #04A4FE;
+	border-radius: 20px 20px 0px 0px;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px #04A4FE;
+	margin-top: 20px;
+}
+@media (max-width: 800px) {
+	#zoneInscription{
+		width: 96%;
+		margin-left: 2%;
+	}
+	.formulaire_admin{
+		width: 96%;
+		height: 78%;
+	}
+	#figcaptionAvatarIns{
+		color: black;
+		text-align: center;
+		font-size: 10px;
+		font-weight: bold;
+	}
+}
+.tooltipIns{
+	margin-top: 5px;
+	font-family: 'Times New Roman';
+	border-radius: 4px;
+    font-size: 10px;
+	color: #D96A52;
+	text-align: center;
+}
+
+/* CSS de la page listeQuestions.php*/
+
+#zoneListeQuestions{
+	display: inline-block;
+	width: 55%;
+	height: 500px;
+	background-color: white;
+	margin-left: 5%;
+	border-radius: 5px;
+}
+#listeQuestionsJeu{
+	width: 100%;
+	height: 100%;
+	
+	border-radius: 10px;
+	overflow-x: auto;
+	overflow-y: auto
+}
+#listeQuestionsJeu span{
+	color:rgb(199, 147, 118);
+	font-size:20px;
+	margin-left:5px;
+}
+@media (max-width: 800px) {
+	#zoneListeQuestions{
+		width: 96%;
+		margin-left: 2%;
+	}
+}
+
+/* CSS de la page dashboard.php*/
+
+#dashboard{
+	display: inline-block;
+	width: 55%;
+	height: 500px;
+	background-color: white;
+	margin-left: 5%;
+	border-radius: 5px;
+}
+#dashboard_div{
+	margin-top:10px;
+}
+#dashboard_div p{
+	font-size:20px;
+	color:rgb(81,191,208);
+	text-align: center;
+}
+#filter_div{
+	margin-left:40px;
+}
+@media (max-width: 800px) {
+	#dashboard{
+		width: 96%;
+		margin-left: 2%;
+	}
+}
+/* CSS de la page joueur.php*/
+
+#zoneJoueur{
+	display: inline-block;
+	width: 60%;
+	height: 500px;
+	background-color: white;
+	margin-left: 5%;
+	border-radius: 5px;
+}
+#zoneJeu{
+	width:92%;
+	height:90%;
+	float: left;
+	clear: none; 
+	margin-left:4%;
+	margin-top:5%;
+	border-radius:5px;
+	border:2px solid #D96A52;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+#zoneScoreJoueurs{
+	float: left;
+	clear: none;
+	width:30%;
+	height:40%;
+	margin-top:40px;
+	margin-left:10px;
+	border-radius:5px;
+	border:2px solid rgb(81,191,208);
+}
+#topScores{
+	float: left;
+	clear: none;
+	border:1px solid rgb(81,191,208);
+	width:40%;
+	height:30px;
+	font-size:16px;
+	font-weight:bold;
+	color:black;
+	font-family:serif;
+	background-color:white;
+}
+#monMeilleurScore{
+	float: left;
+	clear: none;
+	border:1px solid rgb(81,191,208);
+	width:60%;
+	height:30px;
+	font-size:16px;
+	font-weight:bold;
+	color:black;
+	font-family:serif;
+	background-color:white;
+}
+#affichageScore{
+	width:100%;
+	height:200px;
+}
+tr{
+	font-size:18px;
+	font-weight:bold;
+}
+td{
+	padding-left:5px;
+}
+#questionPosee{
+	width:96%;
+	height:25%;
+	background-color:rgb(239, 239, 239);
+	margin-left:2%;
+	margin-top:2%;
+	border:1px solid rgb(81,191,208);
+	text-align:center;
+	font-size:30px;
+}
+#questionPosee p{
+	margin-top:10px;
+}
+#questionPosee span{
+	font-weight:bold;
+	text-decoration: underline;
+}
+#pointQuestion{
+	width:14%;
+	height:10%;
+	background-color:rgb(239, 239, 239);
+	border:1px solid rgb(81,191,208);
+	margin-top:2%;
+	margin-left:84%;
+	text-align:center;
+	font-size:25px;
+}
+#pointQuestion p{
+	margin-top:3px;
+}
+#formQuestionPosee{
+	width:96%;
+	height:50%;
+}
+#reponsesQuestionsPosee{
+	width:70%;
+	height: 80%;
+	margin-top:3%;
+	margin-left:15%;
+	font-size:25px;
+	font-weight:bold;
+}
+#btnPrecedentJeu{
+	width:18%;
+	height:15%;
+	background-color: #D96A52;
+	border:1px solid #D96A52;
+	margin-top:5%;
+	margin-left:2%;
+	color:white;
+	border-radius:2px;
+	font-size:18px;
+}
+#btnSuivantJeu{
+	float:right;
+	width:18%;
+	height:15%;
+	background-color: #04A4FE;
+	border:1px solid #04A4FE;
+	margin-top:5%;
+	margin-right:-10px;
+	color:white;
+	border-radius:2px;
+	font-size:18px;
+}
+
+#score{
+	width: 100%;	
+	height: 230px;
+	background-color: white;
+	border-bottom-left-radius: 5px ;
+	border-bottom-right-radius: 5px;
+	border: 2px solid #04A4FE;
+}
+#top_scores{
+	float: left;
+	width: 50%;
+	height: 230px;
+	border-right: 2px solid #04A4FE;
+}
+#mon_top_score{
+	height: 230px;
+}
+#titre_top_scores{
+	width: 100%;
+	height: 40px;
+	font-size: 25px;
+	color: #D96A52;
+	font-family: Impact;
+	text-align: center;
+	border-bottom: 2px solid #04A4FE;
+}
+#titre_mon_top_score{
+	width: 100%;
+	height: 40px;
+	font-size: 25px;
+	color: #D96A52;
+	font-family: Impact;
+	text-align: center;
+	border-bottom: 2px solid #04A4FE;
+}
+#tableMeilleursScores{
+	width: 100%;
+	height: 100px;
+}
+#tableMeilleursScores tr{
+	font-size: 11px;
+}
+#tableMonScore{
+	width: 100%;
+	height: 100px;
+    font-size:40px;
+    color:#04A4FE;
+    font-weight:bold;
+	margin-top:50px;
+	text-align: center;
+}
+#btnQuitterJeu{
+	width:150px;
+	height:35px;
+	background-color: #D96A52;
+	border:1px solid #D96A52;
+	color:white;
+	border-radius:10px;
+	font-size:18px;
+	margin-left: 45px;
+	margin-top: 30px;
+	float: right;
+}
+#quiz-time{
+	width:100%;
+	height:70px;
+	border:2px solid rgb(81,191,208);
+	border-radius:10px;
+	margin-top:5px;
+	
+}
+#quiz-time-left{
+	text-align:center;
+	font-size:20px;
+	font-family:fantasy;
+	color: #D96A52;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	margin-top: -10px;
+}
+#temps{
+	text-align:center;
+	font-size:20px;
+	font-family:fantasy;
+	color: rgb(81,191,208);
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+#niveauQuestion{
+	color: #04A4FE;
+	font-size: 25px;
+	margin-left: 30%;
+	font-weight: bold;
+	font-family: Impact;
+}
+@media (max-width: 800px) {
+	#zoneJoueur{
+		width: 96%;
+		margin-left: 2%;
+	}
+	#pointQuestion{
+		width:20%;
+		height:10%;
+		background-color:rgb(239, 239, 239);
+		border:1px solid rgb(81,191,208);
+		margin-top:2%;
+		margin-left:78%;
+		text-align:center;
+		font-size:25px;
+	}
+	#btnPrecedentJeu{
+		width:22%;
+		height:15%;
+		background-color: #D96A52;
+		border:1px solid #D96A52;
+		margin-top:13%;
+		margin-left:2%;
+		color:white;
+		border-radius:2px;
+		font-size:18px;
+	}
+}

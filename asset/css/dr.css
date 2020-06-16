@@ -1,0 +1,391 @@
+body{
+	background-color: rgb(171,171,171);
+}
+#container{
+	width:900px;
+	height: 700px;
+	margin: auto;
+	background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+		rgba(81,191,208, 0.25),
+		rgba(81,191,208, 0.25)),
+    /* bottom, image */
+	url("../img/Images/img-bg.jpg");
+	background-repeat: round;
+}
+#haut{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(5,36,38);
+}
+#logoQuizzSA {
+	height:100%;
+	width: 50px;
+	float:left;	
+	margin-left: 10px;
+}
+#plaisir{
+	text-align: center;
+	color: white;
+	font-family: cursive;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+#formConnexion{
+	width:50%;
+	height: 47% ;
+	margin:auto;
+	margin-top: 70px;
+	background-color: rgb(242,242,242);
+}
+#log_form{
+	width: 100%;
+	height:50px;
+	background-color: rgb(81,191,208);
+}
+#log_form p{
+	color:white;
+	font-family: cursive;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+.inputLogin{
+	width: 90%;
+	height: 35px;
+	margin-left: 5%;
+	background-color:rgb(240,238,241);
+	text-indent: 10px;
+	border-radius: 5px;
+	margin-top: 27px;
+}
+.inputPassword{
+	width: 90%;
+	height: 35px;
+	margin-left: 5%;
+	background-color:rgb(240,238,241);
+	text-indent: 10px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.tooltip {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 5px;
+	border: 1px solid #555;
+	background-color: #555;
+	border-radius: 4px;
+    font-size: 12px;
+    color: red;
+}
+.tooltipIns {
+    display: inline-block;
+	margin-left: 15px;
+	border: 1px solid #555;
+	background-color: red;
+	border-radius: 4px;
+    font-size: 10px;
+    color: black;
+}
+.iconeInput{
+	margin-left: -35px;
+	margin-top: 10px;
+}
+#btnConnexion {
+	width: 100px;
+	height: 35px;
+	margin-left: 5%;
+	background-color: rgb(81,191,208);
+	float: left;
+	display: inline-block;
+	border-radius: 5px;
+	color: white;
+}
+#inscrire{
+	display:inline-block;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+#inscrire a{
+	text-decoration: none;
+	color: gray;
+}
+
+#formQuestion{
+	width:96%;
+	height: 83% ;
+	margin:auto;
+	background-color: rgb(230, 230, 230);
+	margin-top: 10px;
+	border-radius: 5px;
+}
+#bienvenue{
+	width: 100%;
+	height:80px;
+	background-color: rgb(81,191,208);
+}
+#divAvatar{
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    height: auto;
+}
+#avatarJoueur{
+    width: 50px;
+    height: 50px;
+    border-radius :50%;
+    border:2px solid white;
+}
+#figcaptionJoueur{
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+#bienvenue p{
+    display: inline-block;
+    float: left;
+    height: 70px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
+    font-size: 20px;
+    font-family: cursive;
+}
+#btnDeconnexion{
+    height: 20px;
+    width: 120px;
+    background-color: rgb(60,221,225);
+	float: right;
+	display: inline-block;
+    color: white;
+    margin-right: 20px;
+    margin-top: 25px;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 5px;
+	text-decoration: none;
+}
+#btnDeconnexion a{
+	text-decoration: none;
+	color: white;
+}
+#parametrer{
+	width: 100%;
+	height:80px;
+	background-color: rgb(81,191,208);
+	text-align: center;
+	border-top-left-radius:5px ;
+	border-top-right-radius: 5px;	
+}
+#parametrer p{
+    display: inline-block;
+    height: 70px;
+    color: white;
+    font-size: 25px;
+	font-family: cursive;
+	margin-left: 120px;
+	margin-top: 20px;
+}
+#menu{
+	float: left;
+	display: inline-block;
+	width: 40%;
+	height: 54%;
+	margin-top: 40px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+#zoneInfo{
+	display: inline-block;
+	width: 55%;
+	height: 70%;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: rosybrown;
+	border-radius: 5px;
+}
+#zoneListeJoueurs{
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+	background-color: yellow;
+	border-radius: 5px;
+	color:rgb(199, 147, 118);
+}
+#titreListeJoueurs{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: serif;
+	font-style: italic;
+	text-align: center;
+	padding-top: 20px;
+}
+#listeJoueursParScore{
+	width: 90%;
+	height: 375px;
+	border:2px solid rgb(199, 147, 118);
+	margin: auto;
+	margin-top: 10px;
+}
+#profil{
+	width: 100%;
+	height: 100px;
+	background-image: repeating-linear-gradient(white, rgb(81,191,208));
+	border-top-left-radius:5px ;
+	border-top-right-radius: 5px;	
+}
+#avatarAdmin{
+	display: inline-block;
+	float: left;
+    width: 70px;
+	height: 70px;
+	margin-top: 15px;
+	margin-left: 30px;
+    border-radius :50%;
+    border:2px solid white;
+}
+#divPP{
+	display: inline-block;
+	float: left;
+	height: 100%;
+}
+#filiationAdmin{
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 100%;
+	margin-left: 10px;
+	margin-top: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+} 
+#vertical-menu{
+	width: 100%;	
+	height: 63%;
+	border-bottom-left-radius:5px ;
+	border-bottom-right-radius: 5px;
+	margin-top: 3px;	
+}
+#vertical-menu a {
+	background-color: white;
+	color: rgb(180, 180, 180);
+	display: block; /* Make the links appear below each other */
+	padding: 12px; /* Add some padding */
+	text-decoration: none; /* Remove underline from links */
+	font-family: serif;
+}
+#vertical-menu a:hover {
+	background-color: rgb(245, 245, 245); /* Dark grey background on mouse-over */
+}
+  
+#vertical-menu a.active {
+	background-color: rgb(245, 245, 245); /* Dark grey background on mouse-over */
+	border-left: 5px solid #4CAF50;
+}
+.iconeMenu{
+	float: right;
+	margin-right: 10px;
+}
+#zoneInscription{
+	width: 475.2px;
+	height: 100%;
+	border-radius: 5px;
+	background-color: white;
+}
+#formIns, #myForm{
+	width: 280px;
+	height: 360px;
+	float: left;
+	color: rgb(180, 180, 180);
+	font-family: serif;
+}
+#paraInscrire{
+	margin-left: 15px;
+	font-weight: bold;
+	display: block;
+	color: black;
+}
+#mesInscrire{
+	padding-top: 10px;
+	font-size: 11px;
+	color: rgb(180, 180, 180);
+}
+hr{
+	margin-left: 0px;
+	width:280px;
+	height: 1px;
+	background-color: rgb(180, 180, 180);
+}
+.labelIns{
+	display: block;
+	font-size: 10px;
+	margin-left: 15px;
+}
+.inputIns{
+	margin-left: 15px;
+	border-radius: 3px;
+	margin-top: 2px;
+	display: block;
+	width: 235px;
+	height: 20px;
+}
+#labelAvatarIns{
+	float: right;
+	font-size: 10px;
+	font-weight: bold;
+	border-width:1px;
+	border-style:dotted;
+	border-color:black;
+	background-color: rgb(81,191,208);
+	color: white;
+	padding: 2px;
+	margin-top: 5px;
+	margin-right: 30px;
+}
+#avatarIns{
+	display: none;
+}
+#labelAvatar{
+	margin-left: 15px;
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+}
+#btnIns{
+	background-color: rgb(81,191,208);
+	color: white;
+	font-size: 10px;
+	width: 80px;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+#divAvatarIns{
+	display: inline-block;
+	float: left;
+	width: 195.2px;
+	height: 340px;
+}
+#ApercuAvatarIns{
+	width: 150px;
+	height: 150px;
+	margin-top: 15px;
+	margin-left: 30px;
+    border-radius :50%;
+    border:3px solid rgb(81,191,208);
+}
+#figcaptionAvatarIns{
+	width: 100px;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+	font-weight: bold;
+	margin-left: 60px;
+}
