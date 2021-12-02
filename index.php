@@ -38,11 +38,11 @@
 <?php
   if (isset($_POST['login']) && isset($_POST['password'])) {
     connexion_admin();
-    /*if(connexion_admin()=="connexion"){
+    if(connexion_admin()=="connexion"){
       echo "kdfsdfksllslslklksfl";
     }
     else{
       echo "Pas Connexion";
-    }*/
+    }
   }
 ?>
